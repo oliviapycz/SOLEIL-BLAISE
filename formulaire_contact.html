@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <title></title>
   </head>
   <body>
@@ -21,9 +22,29 @@
 
     <!--- MAIN ------->
     <main>
-      <section class="accueil flexColumn marginAuto">
-        <button type="button" name="button">Accueil du Site</button>
-        <button type="button" name="button">Vide-Grenier 2017</button>
+      <section class="formulaire">
+        <form class="" action="" method="post">
+          <p>Séléctionnez un destinataire:</p>
+            <select name="destinataire">
+              <option value="accueil">Accueil</option>
+              <option value="apprentissage du français">Apprentissage du français</option>
+              <option value="pole jeunesse">Pôle jeunesse</option>
+              <option value="direction">Direction</option>
+            </select>
+          <p>Votre nom:</p>
+            <input type="text" name="name" value="" placeholder="nom" required="">
+              <br>
+          <p>Votre téléphone:</p>
+            <input type="int" name="phone" value="" placeholder="0100200300">
+              <br>
+          <p>Votre adresse mail:</p>
+            <input type="mail" name="mail" value="" placeholder="john.doe@gmail.com">
+              <br>
+          <p>Votre message:</p>
+            <textarea name="message" rows="8" cols="80" placeholder="tapez votre message ici"></textarea>
+              <br>
+          <input type="submit" name="send" value="envoyer">
+        </form>
       </section>
 
     </main>
