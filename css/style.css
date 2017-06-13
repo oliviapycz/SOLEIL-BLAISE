@@ -85,15 +85,16 @@ a:hover{
   scroll-behavior: smooth;
   overflow-y: scroll;
 }
+
 header{
   background-color: #fee500;
   padding: 10px;
   border-bottom: 1px solid #ff3400;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   box-shadow: 10px 10px 5px #888888;
 }
 footer{
-  margin-top: 40px;
+  margin-top: 60px;
   background-color: #fee500;
   padding-left: 20px;
   padding-right: 20px;
@@ -144,9 +145,6 @@ li{
   border: 2px solid #ff3400;
   box-shadow: 10px 10px 5px #888888;
 }
-.imgSize{
-  /*width: 600px;*/
-}
 .padding{
   padding: 0;
 }
@@ -196,7 +194,7 @@ textarea{
 /*form{
   text-align:
 }*/
-/*ACCUEIL INDEX*****/
+/*****ACCUEIL INDEX*****/
 .accueil{
   padding: 100px;
 }
@@ -220,6 +218,8 @@ textarea{
   color:#fee500;
   font-weight: bold;
 }
+
+/******SMALL DEVICE******/
 @media screen and (max-width: 480px)
 {
   h1{
@@ -259,9 +259,6 @@ textarea{
   .lienAccueil{
     width: 150px;
     margin: auto;
-  }
-  .imgSize{
-    /*width: 300px;*/
   }
   .formulaire{
     width: 85%;
