@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <title>Soleil Blaise | Vide-Grenier</title>
   </head>
-  <body id="smoothscroll">
+  <body id="smoothscroll" class="container-fluid">
     <!--- HEADER ------->
-    <header id="header" class="flexColumn">
-      <section class="flex justifyContentBetween">
-        <a href="index.html"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
-        <h1 class="marginAuto ">VIDE-GRENIER ASSOCIATIF</h1>
+    <header id="header" class="row flexColumn">
+      <section class="row col-xs-12 flex justifyContentBetween">
+        <a class="col-xs-3"href="index.html"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+        <h1 class="col-xs-9 marginAuto ">VIDE-GRENIER ASSOCIATIF</h1>
       </section>
       <nav class="navHeader">
         <ul class="flex justifyContentAround">
@@ -37,13 +37,13 @@
       <img class="marginAuto img-responsive" src="images/logo.png" alt="logo">
       </article>
 
-      <a href="#header" class="arrowUp"> <i class="fa fa-angle-up top fa-4x" aria-hidden="true"></i></a>
+      <a href="#header" class="visible-lg arrowUp"> <i class="fa fa-angle-up top fa-4x" aria-hidden="true"></i></a>
 
       <section id="date" class="container flexColumn">
         <h3 class="textCenter">Le Vide-Grenier c'est quand?</h3>
-        <article class="flex justifyContentBetween">
-          <img class="imgSize img-responsive img-thumbnail center-block" src="images/brocante.jpg" alt="brocante">
-            <section class="alignSelfCenter marginAuto">
+        <article class="row flex justifyContentBetween">
+          <img class="col-xs-6 imgSize img-responsive img-rounded center-block" src="images/brocante.jpg" alt="brocante">
+            <section class=" col-xs-6 alignSelfCenter marginAuto">
               <h4 class="textCenter">Rendez-vous</h4>
               <h4 class="textCenter">Le dimanche 17 Septembre 2017</h4>
             </section>
@@ -53,29 +53,29 @@
       <section id="lieu"class="container flexColumn">
           <h3 class="textCenter">Le Vide-Grenier c'est où?</h3>
 
-          <article class="flex justifyContentBetween">
-              <section class="alignSelfCenter marginAuto">
+          <article class="row flex justifyContentBetween">
+              <section class="col-xs-6 alignSelfCenter marginAuto">
                 <h4 class="textCenter">Rue des Orteaux</h4>
                 <h4 class="textCenter">et</h4>
                 <h4 class="textCenter">Rue Pauline Kergomard</h4>
               </section>
-            <img class="imgSize img-responsive img-thumbnail center-block" src="images/googlemap.png" alt="carte">
+            <img class="col-xs-6 imgSize img-responsive img-rounded center-block" src="images/googlemap.png" alt="carte">
           </article>
       </section>
 
       <section id="inscription" class="container flexColumn inscription">
         <h3 class="textCenter">L'Inscription c'est où?</h3>
-        <article class="flex justifyContentBetween">
-          <img class="imgSize img-responsive img-thumbnail center-block" src="images/local.jpg" alt="local">
-          <section class="alignSelfCenter marginAuto">
+        <article class="row flex justifyContentBetween">
+          <img class="col-xs-6 imgSize img-responsive img-rounded center-block" src="images/local.jpg" alt="local">
+          <section class="col-xs-6 alignSelfCenter marginAuto">
             <h4 class="textCenter">Centre Social Saint-Blaise</h4>
             <h4 class="textCenter">7 square Vitruve</h4>
             <h4 class="textCenter">75020 Paris</h4>
           </section>
         </article>
         <h3 class="textCenter">L'Inscription c'est quand?</h3>
-        <article class="flex justifyContentBetween">
-          <section class="alignSelfCenter marginAuto">
+        <article class="row flex justifyContentBetween">
+          <section class="col-xs-12 alignSelfCenter marginAuto">
             <h4 class="textCenter">pour les habitants du quartier:</h4>
             <h4 class="textCenter">du 6 au 8 septembre de 15h à 20h</h4>
             <br>
@@ -86,32 +86,31 @@
             <h4 class="textCenter">Prix: 18€</h4>
 
           </section>
-          <img class="imgSize img-responsive img-thumbnail center-block" src="images/grenier.jpg" alt="grenier">
+          <img class="visible-lg imgSize img-responsive img-rounded center-block" src="images/grenier.jpg" alt="grenier">
         </article>
       </section>
     </main>
     <!--- END MAIN ------->
 
     <!---FOOTER ------->
-    <footer id="contact" class="flex justifyContentBetween">
-      <aside class="flexColumn textCenter">
-        <p>Nous suivre:</p>
-        <a href="https://www.facebook.com/chiraz.anim"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-      </aside>
+    <footer id="contact" class="row flexColumn ">
+      <section class="flex justifyContentBetween">
+        <aside class=" padding col-xs-3 flexColumn textLeftr">
+          <p class="visible-lg">Nous suivre:</p>
+          <a href="https://www.facebook.com/chiraz.anim"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+        </aside>
 
-      <ul class="textCenter">
-        <li>Centre Social Soleil Blaise</li>
-        <li>7 Square Vitruve</li>
-        <li>75020 Paris</li>
-        <br>
-        <li class="copyright">&copy  Simplon.co - All Right Reserved</li>
-      </ul>
+        <ul class="col-xs-6 textCenter">
+          <li>Centre Social Soleil Blaise</li>
+          <li>7 Square Vitruve</li>
+          <li>75020 Paris</li>
+        </ul>
 
-      <aside class="flexColumn textCenter ">
-        <p> 07 69 62 07 85</p>
-        <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i>
-
-      </aside>
+        <aside class="padding col-xs-3 flexColumn textRight alignSelfCenter ">
+          <p>tel: 07 69 62 07 85</p>
+        </aside>
+      </section>
+      <p class="copyright textCenter">&copy  Simplon.co - All Right Reserved</p>
 
 
     </footer>
