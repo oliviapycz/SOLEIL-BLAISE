@@ -184,6 +184,7 @@ textarea{
   height: 70px;
   margin: 10px;
   width: 100%;
+  font-family: 'Dosis', sans-serif;
 }
 .formulaire{
   width: 40%;
@@ -192,7 +193,7 @@ textarea{
   display: flex;
   flex-direction: column;
   background-color: #fee500;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 5px 5px 5px #888888;
   margin-top: 30px;
   margin-bottom: 10px;
   padding-right: 20px;
@@ -201,9 +202,16 @@ textarea{
 .formulaire p{
   padding-left: 5px;
 }
-/*form{
-  text-align:
-}*/
+select{
+  margin: 10px;
+  height: 40px;
+  width: 50%;
+  font-family: 'Dosis', sans-serif;
+}
+.envoyer:hover{
+  font-weight: bold;
+  box-shadow: 5px 5px 5px #888888;
+}
 /*****ACCUEIL INDEX*****/
 .accueil{
   padding: 100px;
@@ -264,6 +272,7 @@ textarea{
   }
   .accueil{
     padding: 40px;
+    margin-top: 30px;
   }
   .btn-accueil{
     font-family: 'Dosis', sans-serif;
@@ -284,6 +293,6 @@ textarea{
     font-size: 12px;
   }
   .imgSize{
-    width: auto;
+    width: 300px;;
   }
 }
