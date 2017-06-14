@@ -151,7 +151,7 @@ li{
 .containerSection{
   margin-bottom: 30px;
   padding-bottom: 30px;
-  background-color: #e4d7c3;
+  /*background-color: #e4d7c3;*/
   border: 2px solid #ff3400;
   box-shadow: 5px 5px 5px #888888;
 }
